@@ -36,6 +36,7 @@ with open ("c:/temp/sublist.txt") as sublist:
         except:
         	CNAME2 = "no nested CNAMEs"
         	errcountCNAME2 += 1
+            continue
         finally:
             list = [url, A, CNAME, CNAME2]
             #list = zip(url,A,CNAME)
