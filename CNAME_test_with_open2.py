@@ -20,7 +20,7 @@ with open ("c:/temp/sublist.txt") as sublist:
         except:
             A = "no IPV4 found"
             errcountA += 1
-            continue
+            continue 
         try:
             answer = resolver.query(url, 'CNAME')
             for rdata in answer:
